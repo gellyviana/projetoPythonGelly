@@ -1,0 +1,30 @@
+#conding = utf-8
+
+nome = input("Digite seu nome: ")
+xp = int(input("Digite sua experiencia: "))
+vida = False
+tamanho = input("Digite seu tamanho: ")
+idade 
+forca = 7
+inteligencia = 99
+
+#TODO: Falta os personagens
+
+if vida:
+	print("Você ainda possui vida!!!!!!")
+
+if tamanho.isnumeric() and 0<int(tamanho)<20:
+	tamanho = int(tamanho) 
+else:
+	print("Digite corretamente!!!")
+
+while True:
+	idade = input("Digite sua idade: ")
+	if idade.isnumeric():
+		idade = int(idade)
+		break
+	else:
+		print("Digite sua idade novamente")
+
+print (nome)
+print (xp)
